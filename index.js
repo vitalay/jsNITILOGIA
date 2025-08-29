@@ -96,3 +96,22 @@ if (user === orderOwner || user === 'admin'){
 }else {
   console.log("Заказ нельзя редактировать");
 }
+
+
+let age = 15;
+switch (age){
+  case 0:
+  console.log('Вы еще не радились');
+  break
+  case 7:
+    console.log('подрасти');
+    break
+  case 15:
+    console.log('подрасти еще немного');
+    break
+  case 18:
+    console.log('доступ разрешо');
+    break
+  default:
+  console.log('доступ запрещен');
+}
