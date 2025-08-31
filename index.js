@@ -107,11 +107,19 @@ switch (age){
     console.log('подрасти');
     break
   case 15:
-    console.log('подрасти еще немного');
+    console.log('\u00FE одрасти еще немного');
     break
   case 18:
     console.log('доступ разрешо');
     break
   default:
   console.log('доступ запрещен');
+}
+
+
+let product = 'Печенье «Юбилейное», 1 кг'
+let inBasket = true
+let quantity = 5
+if (inBasket){
+  console.log(`${quantity} x ${product}`);
 }
